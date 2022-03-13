@@ -17,7 +17,7 @@
     "nodemon": "^1.9.0"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "nodemon --exec \"mocha -R min\"",
     "start": "node server.js"
   },
   "author": "Sagnik Chatterjee, Rhea Shastri",
